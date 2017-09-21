@@ -3,7 +3,7 @@ function Blog () {}
 
 Blog.prototype.start = function () {
 
-	$.getRSS("http://www.rssmix.com/u/8136188/rss.xml", function(data) {
+	$.getRSS("http://www.rssmix.com/u/8256401/rss.xml", function(data) {
 		var xml = $.parseXML(data.responseText);
 		xml = $(xml);
 		var html = "";

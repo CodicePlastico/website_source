@@ -13,7 +13,7 @@ Blog.prototype.start = function () {
 				date: $item.find("pubDate").text().substring(0, 16),
 				url: $item.find("link").text(),
 				title: $item.find("title").text(),
-				author: $item.find("item").find("dc\\:creator").text()
+				author: $item.find("dc\\:creator").text()
 			};
 			html += tmpl("post_tmpl", data);
 		});

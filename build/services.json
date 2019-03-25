@@ -1,0 +1,39 @@
+{
+  "seo": {
+    "title": "CodicePlastico",
+    "description": {
+      "en": "",
+      "it": ""
+    }
+  },
+  "og":{
+    "url": "http://codiceplastico.com",
+    "title": "CodicePlastico",
+    "description": {
+      "en": "CodicePlastico is a small but mighty team of software engineers",
+      "it": "CodicePlastico è un grande piccolo team di software engineer"
+    },
+    "image": "http://codiceplastico.com/assets/images/facebook.jpg"
+  },
+  "title": {
+    "en": "We have worked with companies all around the globe.<br/>Here are some of them.",
+    "it": "Abbiamo lavorato per aziende sparse in tutto il globo.<br/>Eccone alcune."
+  },
+  "companies": [
+    {
+      "title": {
+        "en": "E-Commerce leader in fashion market ",
+        "it": "E-Commerce leader nel fashion "
+      },
+      "subtitle": {
+        "en": "Old software was migrated through a new asynchronous architecture in order to reduce coupling between various systems and to enable faster-than-ever evolution.",
+        "it": "Ha migrato il suo software verso un’architettura asincrona per ridurre l’accoppiamento tra i vari sistemi ed evolvere più velocemente"
+      },
+      "description": {
+        "en": "The internal teams redesigned the system, changing the batch architecture to a message based system whereby every component is autonomous and communicates with others in an asynchronous way.",
+        "it": "I team interni hanno ridisegnato i sistemi passando da un’architettura batch a un sistema basato sui messaggi in cui ogni componente è autonomo e comunica con gli altri in modo asincrono."
+      },
+      "tech": ["CQRS", "EventSourcing", "MessageBus"]
+    }
+  ]
+}

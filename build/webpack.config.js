@@ -14,9 +14,17 @@ const retrieveParams = (pageData, lang) => {
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
+const templateOptions = !isDevelopment && {
+  html5: true,
+  collapseWhitespace: true,
+  caseSensitive: true,
+  removeComments: true,
+  removeEmptyElements: true
+}
+
 module.exports = {
   entry: {
-    bundle: './src/app.js'
+    bundle: './src/js/app.js'
   },
   output: {
     path: path.resolve(__dirname, '../dist')
@@ -25,7 +33,7 @@ module.exports = {
   devServer: {
     port: 3000,
     open: true,
-    contentBase: path.join(__dirname, "../src"),
+    contentBase: path.join(__dirname, "../src")
   },
   module: {
     rules: [
@@ -130,28 +138,44 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
-      template: './src/index.handlebars',
+      template: './src/templates/home.handlebars',
       templateParameters: retrieveParams('home', 'en'),
-      minify: !isDevelopment && {
-        html5: true,
-        collapseWhitespace: true,
-        caseSensitive: true,
-        removeComments: true,
-        removeEmptyElements: true
-      },
+      minify: templateOptions
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
-      template: './src/index.handlebars',
+      template: './src/templates/home.handlebars',
       filename: 'it/index.html',
       templateParameters: retrieveParams('home', 'it'),
-      minify: !isDevelopment && {
-        html5: true,
-        collapseWhitespace: true,
-        caseSensitive: true,
-        removeComments: true,
-        removeEmptyElements: true
-      },
+      minify: templateOptions
+    }),
+    new HtmlWebpackPlugin({
+      title: 'CodicePlastico',
+      template: './src/templates/case-history.handlebars',
+      filename: 'case-history/index.html',
+      templateParameters: retrieveParams('case-history', 'en'),
+      minify: templateOptions
+    }),
+    new HtmlWebpackPlugin({
+      title: 'CodicePlastico',
+      template: './src/templates/case-history.handlebars',
+      filename: 'it/case-history/index.html',
+      templateParameters: retrieveParams('case-history', 'it'),
+      minify: templateOptions
+    }),
+    new HtmlWebpackPlugin({
+      title: 'CodicePlastico',
+      template: './src/templates/services.handlebars',
+      filename: 'services/index.html',
+      templateParameters: retrieveParams('case-history', 'en'),
+      minify: templateOptions
+    }),
+    new HtmlWebpackPlugin({
+      title: 'CodicePlastico',
+      template: './src/templates/services.handlebars',
+      filename: 'it/services/index.html',
+      templateParameters: retrieveParams('case-history', 'it'),
+      minify: templateOptions
     }),
     // new WebappWebpackPlugin('./src/static/favicon.png')
   ]

@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "CodicePlastico",
+    "description": {
+      "en": "",
+      "it": ""
+    }
+  },
+  "og":{
+    "url": "http://codiceplastico.com",
+    "title": "CodicePlastico",
+    "description": {
+      "en": "CodicePlastico is a small but mighty team of software engineers",
+      "it": "CodicePlastico è un grande piccolo team di software engineer"
+    },
+    "image": "http://codiceplastico.com/assets/images/facebook.jpg"
+  },
+  "team": [
+    {
+      "name": "Alessandro",
+      "nickname": "amelchiori",
+      "fullname": "Alessandro Melchiori",
+      "description": {
+        "en": "Software craftsman, husband, father, ex-sportsman and inquiring reader. Since I was young I have loved taking apart and reassembling things to understand how they work. Now, this passion has become my job: the step from Lego to software development was a short one. Finding the best possible solution so that a complex system can work at its best and making it run smoothly are the goals of my work. C#, WCF, ESB, MongoDb and Azure make up my survival toolkit and help me cruise through distributed systems and enterprise solutions with ease. Be it a command or an event, I try to do my best in contributing to the life of the communities that have adopted me (ugidotnet and WEBdeBS), trying to “give back” at least a part of what I have received over these years.",
+        "it": "Artigiano del software, marito, padre, ex-sportivo e curioso lettore. Mi piaceva fin da piccolo smontare e rimontare le cose, per capire come funzionassero. Ora questa passione è diventata il mio lavoro: dai Lego allo sviluppo software il passo è stato breve. Ogni giorno studio le soluzioni per far funzionare al meglio un sistema complesso, oliandone tutti gli ingraggi. C#, WCF, ESB, MongoDb e Azure fanno parte del mio kit di sopravvivenza e mi aiutano a destreggiarmi tra i sistemi distribuiti e le soluzioni enterprise. Tra un comando e un evento, partecipo attivamente alla vita delle community che mi hanno adottato in questi anni, come Ugidotnet e WEBdeBS."
+      },
+      "images": {
+        "standard": "ale-550.png",
+        "super": "ale-super-550.png"
+      },
+      "social": [
+        {"name": "Twitter", "link": "https://twitter.com/amelchiori"},
+        {"name": "Linkedin", "link": "https://www.linkedin.com/in/amelchiori/"},
+        {"name": "Slideshare", "link": "https://www.slideshare.net/melkio"},
+        {"name": "Github", "link": "https://github.com/melkio"}
+      ]
+    },
+    {
+      "name": "Emanuele",
+      "nickname": "emadb",
+      "fullname": "Emanuele Del Bono",
+      "description": {
+        "en": "I am an architect and software developer with more than 10 years’ experience in building web applications. I have always been curious and interested in learning new technologies and new languages, and over the last few years I have spent my time in frontend development, taking in my stride the quirks of javascript and different browser personalities. C#, Ruby, Javascript, Test Driven Development, Patterns and Clean Code are the languages I speak every day. I love to share what I learn, actively participating in conferences as a speaker at numerous events for various developer communities. But I don’t just live for technology: in my spare time I really enjoy freshwater sailing on Lake Garda and being a “perfect dad”.",
+        "it": "Sono un architetto e sviluppatore con decennale esperienza nella realizzazione di applicazioni Web. Sempre curioso e interessato a imparare nuove tecnologie e nuovi linguaggi, negli ultimi anni mi dedico allo sviluppo frontend, districandomi tra le idiosincrasie di Javascript e le personalità dei browser. C#, Ruby, Javascript, Test Driven Development, Pattern e Clean Code sono i linguaggi che parlo ogni giorno. Amo condividere quello che imparo, partecipando attivamente come speaker a numerosi eventi delle community di sviluppatori. Non vivendo di sola tecnologia, mi diletto come velista d’acqua dolce sul Lago di Garda e come padre modello."
+      },
+      "images": {
+        "standard": "ema-550.png",
+        "super": "ema-super-550.png"
+      },
+      "social": [
+        {"name": "Twitter", "link": "https://twitter.com/emadb"},
+        {"name": "Linkedin", "link": "https://www.linkedin.com/in/emanueledb/"},
+        {"name": "Slideshare", "link": "https://www.slideshare.net/emadb"},
+        {"name": "Github", "link": "https://github.com/emadb"}
+      ]
+    }
+  ]
+}

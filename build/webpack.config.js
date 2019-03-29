@@ -167,14 +167,14 @@ module.exports = {
       title: 'CodicePlastico',
       template: './src/templates/services.handlebars',
       filename: 'services/index.html',
-      templateParameters: retrieveParams('case-history', 'en'),
+      templateParameters: retrieveParams('services', 'en'),
       minify: templateOptions
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
       template: './src/templates/services.handlebars',
       filename: 'it/services/index.html',
-      templateParameters: retrieveParams('case-history', 'it'),
+      templateParameters: retrieveParams('services', 'it'),
       minify: templateOptions
     }),
     // new WebappWebpackPlugin('./src/static/favicon.png')

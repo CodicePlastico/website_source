@@ -24,7 +24,9 @@ const templateOptions = !isDevelopment && {
 
 module.exports = {
   entry: {
-    bundle: './src/js/app.js'
+    bundle: './src/js/app.js',
+    blog: './src/js/blog.js',
+    slides: './src/js/slides.js'
   },
   output: {
     path: path.resolve(__dirname, '../dist')
@@ -140,42 +142,80 @@ module.exports = {
       title: 'CodicePlastico',
       template: './src/templates/home.handlebars',
       templateParameters: retrieveParams('home', 'en'),
-      minify: templateOptions
+      minify: templateOptions,
+      chunks: ['bundle']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
       template: './src/templates/home.handlebars',
       filename: 'it/index.html',
       templateParameters: retrieveParams('home', 'it'),
-      minify: templateOptions
+      minify: templateOptions,
+      chunks: ['bundle']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
       template: './src/templates/case-history.handlebars',
       filename: 'case-history/index.html',
       templateParameters: retrieveParams('case-history', 'en'),
-      minify: templateOptions
+      minify: templateOptions,
+      chunks: ['bundle']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
       template: './src/templates/case-history.handlebars',
       filename: 'it/case-history/index.html',
       templateParameters: retrieveParams('case-history', 'it'),
-      minify: templateOptions
+      minify: templateOptions,
+      chunks: ['bundle']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
       template: './src/templates/services.handlebars',
       filename: 'services/index.html',
       templateParameters: retrieveParams('services', 'en'),
-      minify: templateOptions
+      minify: templateOptions,
+      chunks: ['bundle']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
       template: './src/templates/services.handlebars',
       filename: 'it/services/index.html',
       templateParameters: retrieveParams('services', 'it'),
-      minify: templateOptions
+      minify: templateOptions,
+      chunks: ['bundle']
+    }),
+    new HtmlWebpackPlugin({
+      title: 'CodicePlastico',
+      template: './src/templates/blog.handlebars',
+      filename: 'blog/index.html',
+      templateParameters: retrieveParams(null, 'en'),
+      minify: templateOptions,
+      chunks: ['blog']
+    }),
+    new HtmlWebpackPlugin({
+      title: 'CodicePlastico',
+      template: './src/templates/blog.handlebars',
+      filename: 'it/blog/index.html',
+      templateParameters: retrieveParams(null, 'it'),
+      minify: templateOptions,
+      chunks: ['blog']
+    }),
+    new HtmlWebpackPlugin({
+      title: 'CodicePlastico',
+      template: './src/templates/slides.handlebars',
+      filename: 'slides/index.html',
+      templateParameters: retrieveParams(null, 'en'),
+      minify: templateOptions,
+      chunks: ['slides']
+    }),
+    new HtmlWebpackPlugin({
+      title: 'CodicePlastico',
+      template: './src/templates/slides.handlebars',
+      filename: 'it/slides/index.html',
+      templateParameters: retrieveParams(null, 'it'),
+      minify: templateOptions,
+      chunks: ['slides']
     }),
     // new WebappWebpackPlugin('./src/static/favicon.png')
   ]

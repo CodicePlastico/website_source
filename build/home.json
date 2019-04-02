@@ -150,9 +150,7 @@
         "standard": "chiara-550.png",
         "super": "chiara-super-550.png"
       },
-      "social": [
-        {"name": "", "link": ""}
-      ]
+      "social": []
     },
     {
       "name": "Umberto",
@@ -289,14 +287,16 @@
       "nickname": "",
       "fullname": "Jacek Wronski",
       "description": {
-        "en": "TBD",
-        "it": "TBD"
+        "en": "I mainly deal with the development of web applications in ASP.NET with some braces in the mobile world. I like to try and experiment with new technologies and languages ​​with particular attention to architecture and methodologies. DDD, TDD, Microservices and many others are my favorite topics. As soon as possible I participate in events and meetings organized by the community of developers and enthusiasts on the Italian territoryas I believe that in this sector we never stop and we must always keep up with the times with constant updatesand exchange of knowledge. After a day in front of the monitor I dedicate myself to teaching kung fu which has become an integral part of my life. My weak point?Good food!",
+        "it": "Mi occupo principalmente dello sviluppo di applicazioni web in ASP.NET con qualche parantesi nel mondo mobile. Mi piace provare e sperimentare nuove tecnologie e linguaggi con particolare attenzione alle architetture e metodologie. DDD, TDD, Microservizi e molti altri sono gli argomenti che preferisco. Appena possibile partecipo ad eventi e meeting organizzati dalle community di sviluppatori e appassionati sul territorio italiano in quanto ritengo che in questo settore non ci si ferma mai e bisogna stare sempre al passo con i tempi con aggiornamenti costanti e scambio di conoscenze. Dopo una giornata davanti al monitor mi dedico all'insegnamento del kung fu diventato ormai parte integrante della mia vita. Il mio punto debole? Il buon cibo!"
       },
       "images": {
         "standard": "jac-550.png",
         "super": "jac-super-550.png"
       },
-      "social": []
+      "social": [
+        {"name": "Linkedin", "link": "https://www.linkedin.com/in/jacek-wronski-17b94bb7/"}
+      ]
     }
   ]
 }

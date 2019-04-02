@@ -1,4 +1,4 @@
-require('./tmpl');
+require('./vendor/tmpl');
 
 const Parser = require('rss-parser');
 const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";

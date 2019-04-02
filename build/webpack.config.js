@@ -24,7 +24,8 @@ const templateOptions = !isDevelopment && {
 
 module.exports = {
   entry: {
-    bundle: './src/js/app.js',
+    easteregg: './src/js/easteregg.js',
+    home: './src/js/home.js',
     blog: './src/js/blog.js',
     slides: './src/js/slides.js'
   },
@@ -143,7 +144,7 @@ module.exports = {
       template: './src/templates/home.handlebars',
       templateParameters: retrieveParams('home', 'en'),
       minify: templateOptions,
-      chunks: ['bundle']
+      chunks: ['home']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
@@ -151,7 +152,7 @@ module.exports = {
       filename: 'it/index.html',
       templateParameters: retrieveParams('home', 'it'),
       minify: templateOptions,
-      chunks: ['bundle']
+      chunks: ['easteregg', 'home']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
@@ -159,7 +160,7 @@ module.exports = {
       filename: 'case-history/index.html',
       templateParameters: retrieveParams('case-history', 'en'),
       minify: templateOptions,
-      chunks: ['bundle']
+      chunks: ['easteregg']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
@@ -167,7 +168,7 @@ module.exports = {
       filename: 'it/case-history/index.html',
       templateParameters: retrieveParams('case-history', 'it'),
       minify: templateOptions,
-      chunks: ['bundle']
+      chunks: ['easteregg']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
@@ -175,7 +176,7 @@ module.exports = {
       filename: 'services/index.html',
       templateParameters: retrieveParams('services', 'en'),
       minify: templateOptions,
-      chunks: ['bundle']
+      chunks: ['easteregg']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',
@@ -183,7 +184,7 @@ module.exports = {
       filename: 'it/services/index.html',
       templateParameters: retrieveParams('services', 'it'),
       minify: templateOptions,
-      chunks: ['bundle']
+      chunks: ['easteregg']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',

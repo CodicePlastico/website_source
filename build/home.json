@@ -2,8 +2,8 @@
   "seo": {
     "title": "CodicePlastico",
     "description": {
-      "en": "",
-      "it": ""
+      "en": "CodicePlastico is a small but mighty team of software engineers",
+      "it": "CodicePlastico è un grande piccolo team di software engineer"
     }
   },
   "og":{
@@ -205,36 +205,6 @@
       ]
     },
     {
-      "name": "Claudio",
-      "nickname": "",
-      "fullname": "Claudio Marchiori",
-      "description": {
-        "en": "TBD",
-        "it": "TBD"
-      },
-      "images": {
-        "standard": "cla-550.png",
-        "super": "cla-super-550.png"
-      },
-      "social": [
-      ]
-    },
-    {
-      "name": "Alessandro",
-      "nickname": "",
-      "fullname": "Alessandro Maffi",
-      "description": {
-        "en": "TBD",
-        "it": "TBD"
-      },
-      "images": {
-        "standard": "ale-j-550.png",
-        "super": "ale-j-super-550.png"
-      },
-      "social": [
-      ]
-    },
-    {
       "name": "Alberto",
       "nickname": "",
       "fullname": "Alberto Fusar",
@@ -248,21 +218,6 @@
       },
       "social": [
         {"name": "Linkedin", "link": "https://it.linkedin.com/in/alberto-fusar-712b1466"}
-      ]
-    },
-    {
-      "name": "Giovanni",
-      "nickname": "",
-      "fullname": "Giovanni Caniato",
-      "description": {
-        "en": "TBD",
-        "it": "TBD"
-      },
-      "images": {
-        "standard": "gio-550.png",
-        "super": "gio-super-550.png"
-      },
-      "social": [
       ]
     },
     {

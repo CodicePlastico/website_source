@@ -144,7 +144,7 @@ module.exports = {
       template: './src/templates/home.handlebars',
       templateParameters: retrieveParams('home', 'en'),
       minify: templateOptions,
-      chunks: ['home']
+      chunks: ['easteregg', 'home']
     }),
     new HtmlWebpackPlugin({
       title: 'CodicePlastico',

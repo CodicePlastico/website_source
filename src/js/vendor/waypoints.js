@@ -141,7 +141,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
           _this = this;
 
         isWin = $.isWindow(this.element);
-        cOffset = this.$element.offset();
+        cOffset = this.$element.offset() || {left: 0, top: 0};
         this.doScroll();
         axes = {
           horizontal: {
